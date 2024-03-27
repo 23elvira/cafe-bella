@@ -1,0 +1,82 @@
+/*General size*/
+
+body,h2,h3,h1,ul,li,p,img{margin:0;
+padding:0;}
+body{background-color: background-color: rgba(83, 69, 34, 0.826);}
+
+/*header styled for both pages*/
+
+header{text-align: center;
+background-color: rgba(83, 69, 34, 0.826);
+padding:15px 0;}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.50rem;
+color: rgb(249, 133, 0);}
+
+ul,li,a{display: inline-block;
+;
+text-decoration:none;
+color:rgb(249, 133, 0);}
+
+ul{list-style: none;}
+
+a{margin: 5px ;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.7rem;}
+
+a:hover{color: rgb(229, 235, 227);
+}
+/*Main section with picture background*/
+
+main{background:url("coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    min-height: 560px;}
+
+main>h2{text-align: center;
+padding:50px 5px;
+color:whitesmoke;
+font-size: 3rem;}
+main>p{color:whitesmoke ;
+text-align: center;
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/*Menu page */
+.menupage{background: url("cup.jpg");
+min-height: 540px;
+background-position: center;
+background-size: cover;
+margin-bottom:o;
+text-align: center;}
+
+.pastries{text-align: right;
+}
+
+h2{font-size: xx-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(56, 33, 4);}
+.coffeelist{padding: 10px 0;}
+
+th{color:rgb(249, 133, 0);;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+tr,td {text-align: left;
+;}
+
+span{font-style: italic;
+font-size: 1.1rem;}
+
+/*Footer for both pages*/
+
+footer{ background-color:rgba(83, 69, 34, 0.826);
+    text-align:center;
+    color:rgb(249, 133, 0);;
+    padding:10px 0;
+    }
+    footer h3{margin-bottom:9px;
+    font-size: 2.50rem;}
